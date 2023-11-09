@@ -5,10 +5,12 @@
         "target": "es2015",
         "noImplicitAny": true,
         "moduleResolution": "node",
-        "sourceMap": true,
+        "inlineSourceMap": true,
         "outDir": "dist",
         "resolveJsonModule": true,
         "skipLibCheck": false
     },
-    "include": ["src/**/*"]
+    "include": [
+        "src/**/*"
+    ]
 }
