@@ -27,23 +27,23 @@ The report should properly achieve the following goals:
 - Analysis of the application project.
 - Creation of test scenarios.
 
-## 3. Test Scenarios
+## 4. Test Scenarios
 - I started by creating a test scenario for the '/todos' page to ensure that the application functions correctly.
 - By analyzing the application, I noticed that it corresponds to a task management application, which allowed me to create test scenarios E2E based on CRUD Create, Read, Update, Delete in order to cover all the methods of the 'src/controllers/todos.controller.ts' file.
 - I created 1 file per test in order to improve readability, you can find the files via the 'cypress/e2e' path.
 - I tested the 5 scenarios on 3 browsers: electron, chrome, firefox.
 
-## 4. Test Results
+## 5. Test Results
 
 - The tests were 100% successful.
 
-## 5. Code Coverage
+## 6. Code Coverage
 - In order to have a double check, I created a test coverage and stored it in the 'coverage' folder.
 
-## 6. Screenshots
+## 7. Screenshots
 
 - You can find the screenshots in the 'cypress/screenshots' folder.
 
-## 7. Areas for improvement
+## 8. Areas for improvement
 - Performance can be improved when querying "Read a task" because the page displays all tasks instead of just the requested one.
 
